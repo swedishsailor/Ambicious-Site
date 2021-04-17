@@ -1,0 +1,8 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+p {
+color:#fff;
+font-size:26px;
+}
