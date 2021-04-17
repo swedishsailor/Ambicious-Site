@@ -1,8 +1,152 @@
-*, *::before, *::after {
-    box-sizing:border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-p {
-color:#fff;
-font-size:26px;
+/*  Nav   */
+.nav p {
+  font-size: 26px;
+  color: #fff;
+}
+
+.nav img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+
+.nav {
+  position: relative;
+    background-image: url("https://i.postimg.cc/KYs2T83m/pexels-elijah-o-donnell-3473569-1.jpg");
+}
+
+.nav h1 {
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 42px;
+  text-align: center;
+}
+
+/* Box */
+
+.box {
+  flex: 1;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.box ol {
+  display: flex;
+  color: #fff;
+  list-style-type: none;
+}
+
+.box ol li {
+  flex-direction: row;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 22px;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.box ol li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.box ol li i {
+  color: #fff;
+  font-size: 32px;
+}
+
+.box ol li a:hover {
+  opacity: 0.3;
+}
+
+.box-row {
+  flex-direction:row;
+    min-width:100%;
+  display:flex;
+}
+.container {
+  min-width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 0 20 0 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Menu */
+
+.menu {
+  flex-direction: column;
+  display: flex;
+  background-color:#ecf0f1;
+
+}
+
+.menu h2 {
+  text-align:center;
+}
+
+.menu p {
+  text-align:center;
+  padding: 0 65px 0 65px;
+}
+
+.menu .box-row img {
+  height:100px;
+  width:100px;
+}
+
+.menu i {
+  border: 1px solid #ecf0f1;
+ border-radius:50%;
+  color:black;
+  background-color:#bdc3c7;
+width:124px;
+  height:124px;
+  font-size:64px;
+
+}
+
+.menu .menu-button {
+  width:160px;
+  height:45px;
+  margin:auto;
+  margin-bottom:60px;
+  margin-top:60px;
+  border-radius:15%;
+  font-size:20px;
+  background-color:#2ecc71;
+  border-color:#2ecc71;
+}
+
+.menu .menu-button:hover {
+  opacity:0.8;
+  background-color:#16a085;
+  color:#fff;
+}
+
+.menu .fas {
+  padding:31px 0 0 31px;
+}
+
+/* Overall */
+
+body {
+  display: flex;
+    flex-direction:column;
+}
+
+section {
+  flex: 1;
+
 }
